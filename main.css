@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-campo {
+    margin-bottom: 8px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: inline;
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: inline;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+form {
+    height: 500px;
+    max-width: 360px;
+    margin-left: 780px;
+}
+
+
